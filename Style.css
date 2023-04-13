@@ -1,0 +1,38 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing:boder-box;
+}
+body{
+    background: rgb(173,216,230);
+    background: radial-gradient(circle, rgba(173,216,230,1) 0%, rgba(0,0,255,1) 100%);
+    justify-content: center;
+    display: flex;
+    padding: 70px;
+    align-items: center;
+}
+.info{
+    margin: 10px;
+    flex-direction: column;
+}
+
+.btn-cadastrar{
+    margin: 10px;
+    text-align: center;
+}
+
+.btn-login {
+    text-align: center;
+    margin: 15px;
+}
+
+a {
+    text-decoration: none;
+    list-style: none;
+}
+
+form{
+    border: solid black 5px;
+    border-radius: 25px;
+    padding: 50px;
+}
